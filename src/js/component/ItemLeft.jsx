@@ -1,6 +1,7 @@
-import React from “react”;
-export const ItemLeft = () => {
+import React from "react";
+
+export const ItemLeft = (props) => {
     return (
-        <p>This is the itemLeft</p>
+        <p>{props.quantity} items left</p>
     )
 }
